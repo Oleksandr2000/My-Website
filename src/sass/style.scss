@@ -13,6 +13,13 @@
     width: 1140px;
     margin: 0 auto;
 }
+.divider{
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+}
 
 @import 'blocks/promo';
 @import 'blocks/title';
@@ -21,5 +28,10 @@
 @import 'blocks/menu';
 @import 'blocks/about';
 @import 'blocks/resume';
+@import 'blocks/skils';
+@import 'blocks/portfolio';
+
+
+
 
 
