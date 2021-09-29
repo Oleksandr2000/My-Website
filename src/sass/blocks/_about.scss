@@ -18,6 +18,9 @@
         padding-top: 6px;
         .divider {
             margin-top: 0;
+            width: 60px;
+            height: 3px;
+            background-color: $main-color;
         }
     }
     &__title {
@@ -27,7 +30,8 @@
     }
     &__text {
         margin-top: 20px;
-        font-size: 14px;
+        font-weight: 500;
+        font-size: 16px;
         line-height: 21px;
     }
     &__skills {
@@ -51,6 +55,7 @@
         }
         &-text {
             margin-top: 6px;
+            font-weight: 500;
             font-size: 12px;
             line-height: 18px;
         }
